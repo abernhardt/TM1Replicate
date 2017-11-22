@@ -1,3 +1,5 @@
+# This is just a preliminary test...like a "Hello world" on a local machine for the 
+# tm1 application
 #Get target cube and dimensions
 import glob
 from TM1py.Services import TM1Service
