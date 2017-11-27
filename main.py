@@ -13,7 +13,6 @@ with TM1Service(address=app.TM1AddressEntry.get(), port=app.TM1PortEntry.get(), 
     for cube in cubelist:
         print ("Cube name: ", cube)
 
-
-# Get directory of TM1 instances
-# The variable 'name', here, should be selected from a VBS script or something and fed as such.
+### Simple cube list print. Parameters being used are:
+### address = localhost, port = 8002, user = admin, password = '', ssl = True
 
