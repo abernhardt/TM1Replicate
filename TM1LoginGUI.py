@@ -61,7 +61,3 @@ class Application(tk.Frame):
         print(self.TM1UsernameEntry.get())
         print(self.TM1PasswordEntry.get())
         print("%r" % (self.sslvar.get()))
-
-app = Application()
-app.master.title=('Sample Application')
-app.mainloop()
