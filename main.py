@@ -1,5 +1,5 @@
 import tkinter
-from TM1LoginGUI import Application
+from GUI import Application
 from TM1py import TM1Service
 
 app = Application()
