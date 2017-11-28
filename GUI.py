@@ -1,6 +1,3 @@
-#Get target cube and dimensions
-
-
 import tkinter as tk
 
 
@@ -9,6 +6,7 @@ import tkinter as tk
 #Currently, I just want to focus on getting replicate to work. Then,
 #I would like to have a toolkit that has multiple useful TM1 tools that
 #may or may not be readily available in TM1 Architect.
+
 class Application(tk.Frame):
 
     def __init__(self, master=None):
